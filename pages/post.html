@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <script src="/assets/js/aesthetic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        .post-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        .post-header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color, #ccc);
+        }
+
+        .post-title {
+            font-size: 1.7rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-meta {
+            color: var(--text-muted, #666);
+            font-size: 0.9rem;
+        }
+
+        .post-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        /* Make sure it adapts to light/dark mode nicely */
+        .post-container h1,
+        .post-container h2,
+        .post-container h3 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .post-container p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/pages/articles.html">Articles</a>
+        <a href="">Log</a>
+        <a href="/index.html" class="brand">UNTITLED</a>
+        <a href="">Tags</a>
+        <a href="/pages/faq.html">FAQ</a>
+        <button id="btn">☀️</button>
+    </nav>
+
+    <div class="post-container">
+        <div id="post-header" class="post-header">
+            <!-- Title and meta will go here -->
+        </div>
+        <div id="post-content">
+            <p>Loading post...</p>
+        </div>
+    </div>
+
+    <script src="/assets/js/post.js" defer></script>
+</body>
+
+</html>

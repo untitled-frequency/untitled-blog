@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="/assets/js/aesthetic.js"></script>
+
+</head>
+
+<body>
+    <!--
+        !important incomplete
+        center
+        nav:
+            contains:
+            - articles
+            - tags
+            - brand - UNTITLED
+            - about us
+            - contact us
+
+            brand is at center while:
+                - articles and contact us is at the left
+                - FAQ and about us is at the right
+    -->
+    <nav>
+        <a href="pages/articles.html" class="left">articles</a>
+        <a href="index.html" class="brand">UNTITLED</a>
+        <div class="right">
+            <a href="">Log</a>
+            <button id="btn"></button>
+        </div>
+
+    </nav>
+    <hr width="10%">
+
+    <!--
+        journal.
+        !important incomplete
+        will contain the 3 recent journals. 
+        display in cards in Obsidian base cards style.
+        for each card:
+            + title
+            + date
+            + preview of the content
+            + chart image
+            + tags
+                (
+                    trading-style (swing or day)
+                    market
+                    outcome in r-multiple
+                )
+    -->
+    <h2 style="display: flex; justify-content: center;">Recent Trades</h2>
+    <section id="recent-trades"></section>
+
+    <!--
+        about. 
+        talking about the blog, 
+        the why of the blog
+        invite to join
+    -->
+    <section class="about">
+        <p>
+            Why "<b>UNTITLED</b>"? <br>
+            First I wanted to use "untitled frequency" as the name of the blog. But later I thought it was a bit too
+            long. <br>
+
+            What all these really is for:
+        <ul>
+            <li>i want to help you progress in your trading journey</li>
+            <li>share with you my process and my trades.</li>
+            <li>demystify the markets and concepts.</li>
+        </ul>
+        <p>
+            <b>bonus 🔥:</b> You can join my community from the social links if you are interested or evenly
+            directly
+            conctact us.
+        </p>
+        </p>
+    </section>
+
+    <script type="module" src="assets/js/recent.js"></script>
+</body>
+
+</html>

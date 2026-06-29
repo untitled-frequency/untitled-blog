@@ -1,0 +1,85 @@
+[
+  {
+    "id": "trade-1",
+    "file": "posts/trade-1.md",
+    "preview": "Today was one of those rare days were the setups parameters align perfectly, a complete textbook setup.",
+    "date": "2026-01-01",
+    "description": "trade-1",
+    "tags": [
+      "trading"
+    ],
+    "chart": "/assets/images/journal/trade-1.png",
+    "r-multiple": 2.4,
+    "title": "Thu Jan 01 2026",
+    "playbook": "fakeout",
+    "market": "xauusd"
+  },
+  {
+    "id": "trade-2",
+    "file": "posts/trade-2.md",
+    "preview": "",
+    "date": "2026-01-02",
+    "description": "trade-2",
+    "tags": [
+      "trading"
+    ],
+    "chart": "/assets/images/journal/trade-2.png",
+    "r-multiple": 1.5,
+    "title": "Fri Jan 02 2026",
+    "playbook": "breakout",
+    "market": "xauusd"
+  },
+  {
+    "id": "trade-3",
+    "file": "posts/trade-3.md",
+    "preview": "",
+    "date": "2026-01-05",
+    "description": "trade-3",
+    "tags": [
+      "trading"
+    ],
+    "chart": "/assets/images/journal/trade-3.png",
+    "r-multiple": -1,
+    "title": "Mon Jan 05 2026",
+    "playbook": "break n retest",
+    "market": "xauusd"
+  },
+  {
+    "id": "trade-4",
+    "file": "posts/trade-4.md",
+    "preview": "",
+    "date": "2026-01-06",
+    "description": "trade-4",
+    "tags": [
+      "trading"
+    ],
+    "chart": "/assets/images/journal/trade-4.png",
+    "r-multiple": 1,
+    "title": "Tue Jan 06 2026",
+    "playbook": "breakout",
+    "market": "xauusd"
+  },
+  {
+    "id": "trade-5",
+    "file": "posts/trade-5.md",
+    "preview": "The shit is taking longer than expected.\nBut the risk-reward is on our side so we are good.",
+    "date": "2026-01-07",
+    "description": "trade-5",
+    "tags": [
+      "trading"
+    ],
+    "chart": "/assets/images/journal/trade-4.png",
+    "r-multiple": 2.1,
+    "title": "Fakeout Book Setup",
+    "playbook": "fakeout",
+    "market": "xauusd"
+  },
+  {
+    "id": "trade-6",
+    "file": "posts/trade-6.md"
+  },
+  {
+    "id": "trade-7",
+    "file": "posts/trade-7.md"
+  }
+]
